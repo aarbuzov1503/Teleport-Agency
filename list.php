@@ -1,8 +1,8 @@
 <?
 
-    $dbname = 'cl92747_travel';
-    $dbuser = 'cl92747_travel';
-    $dbpass = 'cl92747_travelPass';
+    $dbname = '#';
+    $dbuser = '#';
+    $dbpass = '#';
 
     $pdo = new PDO("mysql:host=localhost;dbname=$dbname", $dbuser, $dbpass);
     $stmt = $pdo->query('SELECT * FROM orders ORDER BY id DESC');
